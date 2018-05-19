@@ -1,6 +1,6 @@
 var friends = [{
-    "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Chandler",
+    "photo":"https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg",
     "scores":[
         2,
         3,

@@ -196,16 +196,21 @@
                         totalDifferenceTwo = totalDifferenceOne;
                         totalDifferenceOne = 0;
                     }
-                    else{
+                    else {
                         totalDifferenceOne = 0;
                     }
 
-                }            
+                }
 
                 var modal = $("<div>");
                 modal.append("<p> Your Perfect match is " + chosenMatch.name + "</p>");
                 modal.append("<img src=" + chosenMatch.photo + " height='200' width='200'>");
                 $("#perfectMatch").html(modal)
+                
+
+                $("#name").val("");
+                $("#picture").val("");
+             
 
             })
 
@@ -214,9 +219,7 @@
                 data: { data: JSON.stringify(newFriend) },
                 type: "Post"
             })
-            // $.post("/api/friends", newFriend)
-            //     .then(function (data) { });
-
+           
         })
 
 
